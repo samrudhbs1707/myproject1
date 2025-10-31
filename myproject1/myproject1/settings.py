@@ -96,20 +96,8 @@ DATABASES = {
 
 
 
-# postgresql://postgres:siRgXkravYOutnCzAPFMCkEOLssjuoFW@ballast.proxy.rlwy.net:35140/railway
-# DATABASES={
-#         'default':{
-#             "ENGINE":"django.db.backends.postgresql",
-#             "NAME":"railway",
-#             "USER":"postgres",
-#             "PASSWORD":"siRgXkravYOutnCzAPFMCkEOLssjuoFW",
-#             "HOST":"ballast.proxy.rlwy.net",
-#             "PORT":35140
-#         }
-# }
-
 # Password validation
-# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
+# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validator
 
 AUTH_PASSWORD_VALIDATORS = [
     {
